@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && coveralls < coverage/lcov.info"
+    "test": "jest",
+    "coveralls": "jest --coverage"
   },
   "keywords": [
     "MDS",

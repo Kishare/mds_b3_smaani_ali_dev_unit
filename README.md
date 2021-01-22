@@ -6,7 +6,7 @@ npm test
 
 ## Travis
 
-[![Build Status](https://travis-ci.com/Kishare/mds_b3_smaani_ali_dev_unit.svg?branch=master)](https://travis-ci.com/Kishare/mds_b3_smaani_ali_dev_unit)
+[![Build Status](https://travis-ci.com/Kishare/mds_b3_smaani_ali_dev_unit.svg?branch=main)](https://travis-ci.com/Kishare/mds_b3_smaani_ali_dev_unit)
 
 ## Coveralls
 

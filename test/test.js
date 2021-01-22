@@ -49,11 +49,11 @@ describe('Checking Names', () => {
 });
 
 test('Adds 2 + 2 to equal 4', () => {
-  expect(2 + 2).toBe(4);
+  expect(functions.add(2, 2)).toBe(4);
 });
 
 test('Adds 2 + 2 to NOT equal 5', () => {
-  expect(2 + 2).not.toBe(5);
+  expect(functions.add(2, 2)).not.toBe(5);
 });
 
 /*
@@ -80,13 +80,10 @@ test('Should be falsy', () => {
 
 // toEqual
 test('User should be Marc Antoine object', () => {
-  const user = {
-    firstname: 'Marc', 
-    lastname: 'Antoine',
-  };
-  expect(user).toEqual({firstname: 'Marc', lastname: 'Antoine'});
-  // const user = 'Marc Antoine';
-  // expect(user).toEqual('Marc Antoine');
+  expect(functions.createUser()).toEqual({
+    firstName: 'Marc', 
+    lastName: 'Antoine'
+  })
 });
 
 // Less than and greater than
@@ -99,7 +96,7 @@ test('Should be under or equal 1000', () => {
 
 // Regex
 test('There is no I in the word team', () => {
-  expect('team').not.toMatch(/I/);
+  expect(functions.checkValue('team')).not.toMatch(/I/);
 });
 
 // Arrays

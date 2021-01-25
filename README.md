@@ -1,8 +1,13 @@
-# unit_test
+# Unit_test
 Unit test with Jest
 
+# Installation 
+- git clone
+- npm i
+
 # How to execute test ?
-npm test
+- npm test OR
+- npm run coveralls
 
 ## Travis
 
